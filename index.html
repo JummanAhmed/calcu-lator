@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="tablet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
+
+
+  <title>document</title>
+</head>
+<body>
+  <div class="con">
+    <div class="cal">
+      <div class="result">
+      
+        <input type="text" placeholder="0" name="display" id = "see" >
+      </div>
+
+      <div class="btns">
+        <button class="btn" value = "c" onclick="see.value=null">C</button>
+        <button class="btn" value="0" onclick="dis(this.value)">0</button>
+        <button class="btn" value="/" onclick="dis(this.value)">/</button>
+        <button class="btn" value="*" onclick="dis(this.value)">X</button>
+
+        <button class="btn" value="7" onclick="dis(this.value)">7</button>
+        <button class="btn" value="8" onclick="dis(this.value)">8</button>
+        <button class="btn" value="9" onclick="dis(this.value)">9</button>
+        <button class="btn" value="+" onclick="dis(this.value)">+</button>
+
+        <button class="btn" value="4" onclick="dis(this.value)">4</button>
+        <button class="btn" value="5" onclick="dis(this.value)">5</button>
+        <button class="btn" value="9" onclick="dis(this.value)">6</button>
+        <button class="btn" value="-" onclick="dis(this.value)">-</button>
+
+        <button class="btn" value="1" onclick="dis(this.value)">1</button>
+        <button class="btn" value="2" onclick="dis(this.value)">2</button>
+        <button class="btn" value="3" onclick="dis(this.value)">3</button>
+        <button class="btn" value="=" onclick="see.value = eval(see.value)">=</button>
+
+       
+
+      </div>
+    </div>
+  </div>
+    <script src="file.js"></script>
+</body>
+</html>
